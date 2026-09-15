@@ -1,0 +1,4 @@
+- Symfony 8
+- React 19
+- CRUD
+- HTML / backend validation

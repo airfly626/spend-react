@@ -1,0 +1,38 @@
+{
+    "devDependencies": {
+        "@babel/core": "^7.17.0",
+        "@babel/preset-env": "^7.16.0",
+        "@babel/preset-react": "^7.28.5",
+        "@symfony/webpack-encore": "^6.0.0",
+        "core-js": "^3.38.0",
+        "eslint": "^9.39.4",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "eslint-webpack-plugin": "^6.0.0",
+        "regenerator-runtime": "^0.13.9",
+        "webpack": "^5.72",
+        "webpack-cli": "^6.0.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "@mui/icons-material": "^9.3.1",
+        "@mui/material": "^9.3.1",
+        "@mui/x-data-grid": "^9.12.0",
+        "@mui/x-date-pickers": "^9.12.0",
+        "dayjs": "^1.11.23",
+        "prop-types": "^15.8.1",
+        "react": "^19.2.8",
+        "react-dom": "^19.2.8",
+        "react-router": "^8.3.0"
+    }
+}
