@@ -1,0 +1,23 @@
+# see https://symfony.com/doc/current/reference/configuration/framework.html
+framework:
+    secret: '%env(APP_SECRET)%'
+
+    # Note that the session will be started ONLY if you read or write from it.
+    session: true
+
+    #esi: true
+    #fragments: true
+
+    # 無法轉換，2026-08-22T15:40:57+08:00
+    # serializer:
+    #     default_context:
+    #         # 設定 API 輸出時的自動轉換時區
+    #         datetime_zone: 'Asia/Taipei'
+    #         # 設定輸出的時間格式 (c 代表 ISO 8601，會自動帶出 +08:00)
+    #         datetime_format: 'c' 
+
+when@test:
+    framework:
+        test: true
+        session:
+            storage_factory_id: session.storage.factory.mock_file
