@@ -6,7 +6,7 @@ import {
 } from '@mui/material';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import FitbitIcon from '@mui/icons-material/Fitbit';
-import Mode from './public/ToggleBgColorMode';
+import Mode from './pub/ToggleBgColorMode';
 
 
 export default function Header() {

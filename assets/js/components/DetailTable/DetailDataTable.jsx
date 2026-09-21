@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import { DataGrid } from '@mui/x-data-grid';
-import { customIcons } from '../../public/IconRating';
+import { customIcons } from '../../pub/IconRating';
 import PropTypes from 'prop-types';
 
 
