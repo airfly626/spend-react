@@ -10,7 +10,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
-import { customIcons } from '../../public/IconRating';
+import { customIcons } from '../../pub/IconRating';
 import PropTypes from 'prop-types';
 
 
