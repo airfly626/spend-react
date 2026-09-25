@@ -1,6 +1,6 @@
 import { fetchJson, stringifyUrl } from "./request.js";
 
-const apiUrl = '/api/daily_spends';
+const apiUrl = '/api/v1/x9f2w7ta8/b3y1s';
 
 export function getDailySpends(conditions, terminal) {
 

@@ -13,6 +13,8 @@ use Symfony\Component\Serializer\Attribute\Groups;
 
 #[ORM\Entity(repositoryClass: SpendCategoryRepository::class)]
 #[ApiResource(
+    routePrefix: '/v2/MjAyNjA5MjU',
+    shortName: 'c9a1s',
     normalizationContext: ['groups' => ['spendCategory:read'], 'enable_max_depth' => true, 'skip_null_values' => false],
     denormalizationContext: ['groups' => ['spendCategory:write'], 'disable_type_enforcement' => true],
     paginationEnabled: false,

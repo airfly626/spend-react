@@ -16,6 +16,8 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\Entity(repositoryClass: DailySpendRepository::class)]
 #[ApiResource(
+    routePrefix: '/v1/x9f2w7ta8',
+    shortName: 'b3y1s',
     normalizationContext: ['groups' => ['dailySpend:read'], 'enable_max_depth' => true, 'skip_null_values' => false],
     denormalizationContext: ['groups' => ['dailySpend:write'], 'disable_type_enforcement' => true],
     order: ['spendDate' => 'DESC', 'categoryId'],

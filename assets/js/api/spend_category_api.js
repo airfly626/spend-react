@@ -1,6 +1,6 @@
 import { fetchJson, stringifyUrl } from "./request.js";
 
-const apiUrl = '/api/spend_categories';
+const apiUrl = '/api/v2/MjAyNjA5MjU/c9a1s';
 
 export function getSpendCategories(conditions, terminal) {
 
